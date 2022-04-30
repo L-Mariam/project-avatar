@@ -1,15 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
+<head>
+<meta charset = "UTF-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "icon" type = "image/x-icon" href = "favicon.ico">
+<title> Martial Arts </title>
+<style>
+/* styling the navigation bar */
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #3A5C93;
+	text-align: center;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+nav a:link {
+	color: white;
+  text-decoration: none;
+}
+
+nav a.right {
+  float: right;
+}
+
+/* body of the website */
+.content {
+	padding: 10px;
+	padding-bottom: 4rem;    /* Footer height */
+}
+
+/* footer */
+a:link {
+color: #3A5C93;
+  text-decoration: none;
+}
+
+footer > p {
+text-align: center; 
+background-color: #3A5C93;
+//border-radius: 2px; 
+}
+
+
+footer > ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    text-align: center;
+background-color: transparent;	
+	
+}
+
+footer > ul > li {
+padding: 20px;
+display: inline;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content {
+  padding-bottom: 4rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  height: 4rem;            /* Footer height */
+  color: white;
+margin-top: 100px;
+}
+</style>
+</head>
+
 <body>
+<div id="page-container">
 
-<article>
-  <header>
-    <h1>Hello!</h1>
-    <p>Posted by Selah Williams</p>
-    <p>If you're seeing this, I figured out how to push to the repository</p>
-  </header>
-  <p>Let's get this bread</p>
-</article>
+<header>
 
+<nav>
+<ul>
+<li><a href = "" > Home </a> </li>
+<li><a href = "" > Programs </a> </li>
+<li><a href = "" > About Us </a> </li>
+<li><a href = "" > Contact Us </a> </li>
+<li><a href = "" class = "right"> Log In </a> </li>
+</ul>
+</nav>
+</header>
+<div id="content">
+  <!-- add website content here -->
+
+</div>
+<footer id="footer">
+ <p id="foot"> Copyright &copy; Martialarts.com </p>
+   <ul>
+    <li>
+      <a href="">About</a>
+    </li>
+    <li>
+      <a href="">Privacy Policy</a>
+    </li>
+    <li>
+      <a href="">Disclaimer</a>
+    </li>
+ </ul>
+</footer>
+</div>
 </body>
 </html>
